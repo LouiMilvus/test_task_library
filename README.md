@@ -74,7 +74,7 @@ test_task_library/
 ## Как запустить тесты
 Для запуска тестов, которые находятся в папке tests/, выполните команду:
 
-    docker run --rm -v C:/Users/gkaro/PycharmProjects/test_task_library:/app library_app pytest
+    docker run --rm -v path_to_work_directory/test_task_library:/app library_app pytest
     
 Эта команда запустит тесты внутри контейнера с использованием pytest. Все тесты должны пройти успешно, если функциональность библиотеки работает корректно.
 
